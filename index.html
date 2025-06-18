@@ -17,16 +17,50 @@
             </div>
             <nav class="nav">
                 <ul>
-                    <li><a href="#about">О НАС</a></li>
-                    <li><a href="#courses">ОБРАЗОВАНИЕ</a></li>
-                    <li><a href="#services">ПРОЧИЕ УСЛУГИ</a></li>
-                    <li><a href="#community">СООБЩЕСТВО</a></li>
+                    <li class="dropdown">
+                        <a href="#about">О НАС</a>
+                        <div class="dropdown-content">
+                            <a href="#">Документация</a>
+                            <a href="#">Наш подход</a>
+                            <a href="#">Преимущества</a>
+                            <a href="#">Отзывы</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#courses">ОБРАЗОВАНИЕ</a>
+                        <div class="dropdown-content">
+                            <a href="#">Языковые курсы</a>
+                            <a href="#">Подготовка к ЕГЭ</a>
+                            <a href="#">Мастер-классы</a>
+                            <a href="#">Профориентация</a>
+                            <a href="#">Компьютерные курсы</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services">ПРОЧИЕ УСЛУГИ</a>
+                        <div class="dropdown-content">
+                            <a href="#">Тренинги речи</a>
+                            <a href="#">Аренда инфокрасов</a>
+                            <a href="#">Консультации</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#community">СООБЩЕСТВО</a>
+                        <div class="dropdown-content">
+                            <a href="#">Мероприятия</a>
+                            <a href="#">Блог</a>
+                            <a href="#">Партнерство</a>
+                        </div>
+                    </li>
                     <li><a href="#vacancies">ВАКАНСИИ</a></li>
                 </ul>
                 <div class="lang-switcher">
                     <a href="#" class="active"><img src="https://flagcdn.com/w40/kg.png" alt="Kyrgyzstan Flag" class="flag-icon" width="24"></a>
                     <a href="#"><img src="https://flagcdn.com/w40/ru.png" alt="Russia Flag" class="flag-icon" width="24"></a>
                     <a href="#"><img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="flag-icon" width="24"></a>
+                    <span class="red-dot"></span>
+                    <span class="red-dot"></span>
+                    <span class="red-dot"></span>
                 </div>
             </nav>
         </div>
@@ -51,6 +85,9 @@
                 </div>
                 <div class="hero-nav-arrow left-arrow"><i class="fas fa-chevron-left"></i></div>
                 <div class="hero-nav-arrow right-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="hero-subtitle">
+                    <p>«Образование – твой маяк в мире возможностей»</p>
+                </div>
             </div>
         </section>
 
@@ -58,24 +95,28 @@
             <div class="container">
                 <h2 class="section-title">О нас</h2>
                 <div class="about-content">
-                    <p><strong>Рассветный центр «Лайтхаус Эдью Ворлдс»</strong> — это образовательное учреждение, которое за 15 лет стало маяком для многих. Мы гордимся тем, что предоставляем нашим студентам не только знания, но и возможность изменить свою жизнь, благодаря комплексному, доступному и современному образованию. Наши программы обучения ориентированы на развитие критического мышления, творческого потенциала и индивидуального подхода.</p>
-                    <p>Наша миссия — дать каждому студенту возможность раскрыть свой потенциал, предоставив высококачественное образование, которое вдохновляет на успех и способствует личностному росту. Мы верим, что знания — это ключ к новым возможностям, и стремимся быть надежным проводником на этом пути.</p>
+                    <p><strong>Учебный центр «Лайтхаус Окуу Борбору»</strong> — это образовательное учреждение, расположенное в Каракол, живописном городе Иссык-Кульской области. Мы стремимся обеспечить <strong>качественное образование</strong>, сочетающее в себе традиционные кыргызские ценности и современные образовательные практики.</p>
+                    <p><strong>Наша цель</strong> - воспитание глобально сознательных лидеров, готовых внести значимый вклад и развитие мирового сообщества.</p>
+                    <div class="about-buttons">
+                        <a href="#" class="btn btn-secondary">Подробнее</a>
+                        <a href="#" class="btn btn-secondary-outline">О нас поподробнее</a>
+                    </div>
                     <div class="advantages">
                         <div class="advantage-item">
                             <img src="img-ng/icon-quality.png" alt="Quality Education">
-                            <h3>Качественное образование</h3>
+                            <h3>Опытные преподаватели</h3>
                         </div>
                         <div class="advantage-item">
                             <img src="img-ng/icon-flexible.png" alt="Flexible Learning">
-                            <h3>Гибкий график обучения</h3>
+                            <h3>Инновационный подход</h3>
                         </div>
                         <div class="advantage-item">
                             <img src="img-ng/icon-support.png" alt="Student Support">
-                            <h3>Индивидуальный подход</h3>
+                            <h3>Новые знакомства</h3>
                         </div>
                         <div class="advantage-item">
                             <img src="img-ng/icon-career.png" alt="Career Opportunities">
-                            <h3>Возможности для карьеры</h3>
+                            <h3>Поддержка роста и развития</h3>
                         </div>
                     </div>
                 </div>
@@ -85,21 +126,27 @@
         <section class="courses" id="courses">
             <div class="container">
                 <h2 class="section-title">Наши Курсы</h2>
-                <div class="course-list">
-                    <div class="course-card">
-                        <h3>Курс по английскому языку</h3>
-                        <p>Наши курсы английского языка помогут вам уверенно общаться и расширить свои возможности. От базового до продвинутого уровня, с опытными преподавателями.</p>
-                        <a href="#" class="btn btn-secondary">Подробнее</a>
+                <div class="courses-layout">
+                    <div class="course-content-wrapper">
+                        <div class="course-nav-arrow left-arrow"><i class="fas fa-chevron-left"></i></div>
+                        <div class="course-list">
+                            <div class="course-card course-card-main">
+                                <h3>КУРС ПО АНГЛИЙСКОМУ ЯЗЫКУ</h3>
+                                <a href="#" class="btn btn-secondary">Подробнее</a>
+                            </div>
+                            <div class="course-card course-card-sub">
+                                <h3>Курс по кыргызскому языку</h3>
+                                <a href="#" class="btn btn-secondary">Подробнее</a>
+                            </div>
+                            <div class="course-card course-card-sub">
+                                <h3>Тренинги и мастер-классы</h3>
+                                <a href="#" class="btn btn-secondary">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="course-nav-arrow right-arrow"><i class="fas fa-chevron-right"></i></div>
                     </div>
-                    <div class="course-card">
-                        <h3>Курс по кыргызскому языку</h3>
-                        <p>Изучите кыргызский язык с нашими уникальными программами, разработанными для всех уровней подготовки. Погрузитесь в культуру и язык.</p>
-                        <a href="#" class="btn btn-secondary">Подробнее</a>
-                    </div>
-                    <div class="course-card">
-                        <h3>Тренинги и мастер-классы</h3>
-                        <p>Развивайте свои профессиональные и личные навыки с нашими интерактивными тренингами и мастер-классами по различным направлениям.</p>
-                        <a href="#" class="btn btn-secondary">Подробнее</a>
+                    <div class="lighthouse-image">
+                        <img src="img-ng/22.png" alt="Lighthouse">
                     </div>
                 </div>
             </div>
@@ -108,28 +155,29 @@
         <section class="reviews" id="reviews">
             <div class="container">
                 <h2 class="section-title">Отзывы наших студентов</h2>
-                <div class="review-list">
-                    <div class="review-card">
-                        <div class="review-header">
-                            <img src="img-ng/review-avatar-1.png" alt="Student Avatar 1" class="review-avatar">
-                            <h4>Анна Иванова</h4>
+                <div class="reviews-carousel-wrapper">
+                    <div class="review-nav-arrow left-arrow"><i class="fas fa-chevron-left"></i></div>
+                    <div class="review-list">
+                        <div class="review-card review-card-main">
+                            <div class="review-header">
+                                <img src="img-ng/IMG_7199.JPG" alt="Student Avatar 1" class="review-avatar">
+                                <h4>Эдильбаева Азиза</h4>
+                            </div>
+                            <p>Выпускница курсов кыргызского языка</p>
+                            <p>«Моя дочь ходит на курсы кыргызского языка. Она в восторге! За короткое время уже виден результат, и ей очень нравится ходить на занятия. Спасибо Лайтхаусу за такой подход!»</p>
+                            <a href="#" class="btn btn-secondary">Подробнее</a>
                         </div>
-                        <p>«Я очень благодарна центру Лайтхаус! Благодаря им я не только улучшила свой английский, но и нашла работу мечты. Преподаватели здесь настоящие профессионалы, а атмосфера просто волшебная!»</p>
-                    </div>
-                    <div class="review-card">
-                        <div class="review-header">
-                            <img src="img-ng/review-avatar-2.png" alt="Student Avatar 2" class="review-avatar">
-                            <h4>Марат Султанов</h4>
+                        <div class="review-card review-card-sub">
+                            <div class="review-header">
+                                <img src="img-ng/IMG_7313.JPG" alt="Student Avatar 2" class="review-avatar">
+                                <h4>Асанова Алия</h4>
+                            </div>
+                            <p>Выпускница курсов английского языка</p>
+                            <p>«Я очень благодарна центру Лайтхаус! Благодаря им я не только улучшила свой английский, но и нашла работу мечты. Преподаватели здесь настоящие профессионалы, а атмосфера просто волшебная!»</p>
+                            <a href="#" class="btn btn-secondary">Подробнее</a>
                         </div>
-                        <p>«Проходил тренинг по личностному росту. Очень полезные знания и практические навыки! Рекомендую всем, кто хочет развиваться и достигать своих целей.»</p>
                     </div>
-                    <div class="review-card">
-                        <div class="review-header">
-                            <img src="img-ng/review-avatar-3.png" alt="Student Avatar 3" class="review-avatar">
-                            <h4>Елена Петрова</h4>
-                        </div>
-                        <p>«Моя дочь ходит на курсы кыргызского языка. Она в восторге! За короткое время уже виден результат, и ей очень нравится ходить на занятия. Спасибо Лайтхаусу за такой подход!»</p>
-                    </div>
+                    <div class="review-nav-arrow right-arrow"><i class="fas fa-chevron-right"></i></div>
                 </div>
             </div>
         </section>
@@ -139,17 +187,11 @@
                 <h2 class="section-title">Связаться с нами</h2>
                 <div class="contact-content">
                     <div class="contact-info">
-                        <p><i class="fab fa-whatsapp"></i> Телефон: +996 700 123 456</p>
                         <p><i class="fas fa-envelope"></i> Email: info@lighthouse.edu</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Адрес: г. Бишкек, ул. Примерная, 123</p>
-                        <div class="social-buttons">
-                            <a href="#" target="_blank" class="social-btn whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                            <a href="#" target="_blank" class="social-btn instagram-btn"><i class="fab fa-instagram"></i> Instagram</a>
-                        </div>
-                        <p>Или отсканируйте QR-код для быстрого доступа:</p>
-                        <div class="qr-codes">
-                            <img src="img-ng/whatsapp-qr.png" alt="WhatsApp QR Code" class="qr-code">
-                            <img src="img-ng/instagram-qr.png" alt="Instagram QR Code" class="qr-code">
+                        <p><i class="fas fa-map-marker-alt"></i> Адрес: г. каракол, ул. Аманбаева 63, (2 этаж)</p>
+                        <div class="contact-social-icons">
+                            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="contact-form">
@@ -164,7 +206,7 @@
                 </div>
                 <div class="map-container">
                     <!-- Google Maps iframe will go here -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.633979109724!2d74.57790351543883!3d42.87320497915833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7ee2f2f7b8d%3A0xc3b7f1e7f9a1b1a!2sBishkek%2C%20Kyrgyzstan!5e0!3m2!1sen!2skg!4v1678888888888!5m2!1sen!2skg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.8647047715423!2d78.37424107727103!3d42.86872591030739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38865e2365113ee9%3A0x6b4c106b1e6a1d82!2zNzgg0YjQtdC70L7Qs9C40L3QuNC60LDRjyAyLCDQmtGD0L_QsNGC0LA!5e0!3m2!1sru!2skg!4v1700000000000!5m2!1sru!2skg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>
@@ -178,7 +220,7 @@
                     <h3>Контакты</h3>
                     <p><i class="fas fa-phone"></i> +996 700 123 456</p>
                     <p><i class="fas fa-envelope"></i> info@lighthouse.edu</p>
-                    <p><i class="fas fa-map-marker-alt"></i> г. Бишкек, ул. Примерная, 123</p>
+                    <p><i class="fas fa-map-marker-alt"></i> г. каракол, ул. Аманбаева 63, (2 этаж)</p>
                 </div>
                 <div class="footer-col quick-links">
                     <h3>Быстрые ссылки</h3>
